@@ -111,3 +111,9 @@ The benchmarks were run on a machine with the following specifications:
 - **RAM**: 16 GB DDR5, 4800 MT/s, dual-channel
 - **OS**: Arch Linux, kernel 6.14.9-arch1-1.1-g14
 - **Power Management**: Performance mode enabled, no overclocking.
+
+## Acknowledgements
+
+- Deepest gratitude to advisor Ph.D. Dung Q. Pham for guidance and support throughout the project.
+- Appreciation to Minh T. Dinh, Khoi H. Nguyen, and Hieu T. Pham for their contributions and collaboration.
+- Thanks to the open-source community for providing libraries and tools that made this project possible.
