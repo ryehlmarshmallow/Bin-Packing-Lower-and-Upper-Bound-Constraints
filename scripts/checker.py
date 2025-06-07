@@ -1,10 +1,8 @@
 import os
-import sys
 import argparse
 import subprocess
 import time
 import psutil
-import numpy as np
 import pandas as pd
 
 
@@ -187,7 +185,7 @@ def main() -> None:
     column_format = '|' + 'c' * \
         len(test_parameters[0]) + ('|' + 'c' *
                                    len(stats)) * len(programs) + '|'
-    with open('data.tex', 'w') as f:
+    with open('output/data.tex', 'w') as f:
         f.write(df.to_latex(sparsify=True, escape=True, longtable=True, column_format=column_format,
                 float_format='%.3f', multicolumn_format='c|', multirow=False, na_rep='N/A'))
 
@@ -205,7 +203,7 @@ if __name__ == '__main__':
 
     TIME_LIMIT = args.time_limit
 
-    pickle_file = 'data.pkl'
+    pickle_file = 'output/data.pkl'
     if args.reset:
         if os.path.exists(pickle_file):
             os.remove(pickle_file)
