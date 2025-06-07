@@ -24,7 +24,7 @@ The project implements several optimization methods to solve the Bin Packing Low
 - Local Search (LS)
 - Dynamic Programming (DP)
 
-The methods are implemented in both Python and C++, with the Greedy and Genetic Algorithm implemented in C++ for better performance. The project also includes a benchmarking script to evaluate the performance of these methods on various test cases.
+The methods are implemented in both Python and C++, with the Greedy and Genetic Algorithm implemented in C++ for better performance, while the rest are implemented in Python. The project also includes a benchmarking script to evaluate the performance of these methods on various test cases.
 
 ## Installation
 
@@ -99,7 +99,7 @@ Then, you can run the optimization methods with the following command:
 python scripts/checker.py --time-limit 10 --reset
 ```
 
-This command will run all the optimization methods with a time limit of 10 seconds. You can adjust the time limit by changing the `--time-limit` parameter, and remove the `-r` flag to not remove the previous benchmark results.
+This command will run all the optimization methods with a time limit of 10 seconds. You can adjust the time limit by changing the `--time-limit` parameter, and remove the `--reset` flag to not remove the previous benchmark results.
 
 The benchmark results will be saved in the `output` folder, with `data.pkl` containing the `pandas.DataFrame` format, and `data.tex` containing the LaTeX table format.
 
@@ -107,9 +107,9 @@ The benchmark results will be saved in the `output` folder, with `data.pkl` cont
 
 The benchmarks were run on a machine with the following specifications:
 
-- **CPU**: AMD Ryzen 7 7735HS, 8 cores, 16 threads, 3.2 GHz base clock, 4.75 GHz boost clock, 16 MB L3 cache
-- **RAM**: 16 GB DDR5, 4800 MT/s, dual-channel
-- **OS**: Arch Linux, kernel 6.14.9-arch1-1.1-g14
+- **CPU**: AMD Ryzen 7 7735HS, 8 cores, 16 threads, 3.2 GHz base clock, 4.75 GHz boost clock, 16 MB L3 cache.
+- **RAM**: 16 GB DDR5, 4800 MT/s, dual-channel.
+- **OS**: Arch Linux, kernel 6.14.9-arch1-1.1-g14.
 - **Power Management**: Performance mode enabled, no overclocking.
 
 ## Benchmark Details
