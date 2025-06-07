@@ -112,6 +112,12 @@ The benchmarks were run on a machine with the following specifications:
 - **OS**: Arch Linux, kernel 6.14.9-arch1-1.1-g14
 - **Power Management**: Performance mode enabled, no overclocking.
 
+## Benchmark Details
+
+The Constraint Programming and Integer Programming methods were run using the `ortools` library, while the Greedy and Genetic Algorithm methods were implemented in C++ for performance reasons. The Tabu Search, Local Search, and Dynamic Programming methods were implemented in Python.
+
+The Constraint Programming method is multi-threaded, while the rest is single-threaded. The benchmarks were run on various test cases, including both small and large instances of the Bin Packing Lower and Upper Bound Constraints problem, as well as edge cases to test the performance of the methods.
+
 ## Acknowledgements
 
 - Deepest gratitude to advisor Ph.D. Dung Q. Pham for guidance and support throughout the project.

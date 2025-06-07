@@ -17,7 +17,7 @@ class genetic_algorithm
     const size_t TOURNAMENT_SIZE;
 
     const size_t ELITISM_SIZE;
-    
+
     struct individual
     {
         vector<int> assignment;
@@ -184,11 +184,11 @@ public:
         for (int j = 0; j < k; ++j)
             if (quantity[j] >= l[j] && quantity[j] <= r[j])
                 valid[j] = true;
-
-        cout << count_if(ind.assignment.begin(), ind.assignment.end(),
-                         [&](int x)
-                         { return (int)valid[x]; })
-             << '\n';
+        int assigned_count = 0;
+        for (int i = 0; i < n; ++i)
+            if (ind.assignment[i] != -1 && valid[ind.assignment[i]])
+                ++assigned_count;
+        cout << assigned_count << '\n';
         for (int i = 0; i < n; ++i)
             if (ind.assignment[i] != -1 && valid[ind.assignment[i]])
                 cout << i + 1 << ' ' << ind.assignment[i] + 1 << '\n';
