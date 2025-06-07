@@ -96,7 +96,7 @@ This will compile the C++ codes and put the executables in the `dist` folder, al
 Then, you can run the optimization methods with the following command:
 
 ```bash
-python scripts/checker.py --time-limit 10 -r
+python scripts/checker.py --time-limit 10 --reset
 ```
 
 This command will run all the optimization methods with a time limit of 10 seconds. You can adjust the time limit by changing the `--time-limit` parameter, and remove the `-r` flag to not remove the previous benchmark results.
