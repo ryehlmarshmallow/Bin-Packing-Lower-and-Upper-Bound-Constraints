@@ -120,6 +120,6 @@ The Constraint Programming method is multi-threaded, while the rest is single-th
 
 ## Acknowledgements
 
-- Deepest gratitude to advisor Prof. Dung Q. Pham for guidance and support throughout the project.
+- Deepest gratitude to advisor Dr. Dung Q. Pham for guidance and support throughout the project.
 - Appreciation to Minh T. Dinh, Khoi H. Nguyen, and Hieu T. Pham for their contributions and collaboration.
 - Thanks to the open-source community for providing libraries and tools that made this project possible.
