@@ -53,19 +53,11 @@ pip install -r requirements.txt
 
 ```
 .
-├── checker.py
-├── dist
-│   ├── cp.py
-│   ├── dp.py
-│   ├── g
-│   ├── ga
-│   ├── ip.py
-│   ├── ls.py
-│   └── ts.py
 ├── makefile
 ├── README.md
 ├── requirements.txt
 ├── scripts
+│   ├── checker.py
 ├── src
 │   ├── cpp
 │   │   ├── ga.cpp
