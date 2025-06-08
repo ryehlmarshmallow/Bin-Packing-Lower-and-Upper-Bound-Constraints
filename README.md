@@ -28,7 +28,7 @@ The methods are implemented in both Python and C++, with the Greedy and Genetic 
 
 ## Installation
 
-Linux is recommended for running this project, as we encountered the deadlock issue of the Python `subprocess` library on Windows, as mentioned in [the 'subprocess' documentation](https://docs.python.org/3/library/subprocess.html#subprocess.Popen.poll):
+Linux is recommended for running this project, as we encountered the deadlock issue of the Python `subprocess` library on Windows, as mentioned in [the `subprocess` documentation](https://docs.python.org/3/library/subprocess.html#subprocess.Popen.poll):
 
 > This will deadlock when using `stdout=PIPE` or `stderr=PIPE` and the child process generates enough output to a pipe such that it blocks waiting for the OS pipe buffer to accept more data. Use `Popen.communicate()` when using pipes to avoid that.
 
