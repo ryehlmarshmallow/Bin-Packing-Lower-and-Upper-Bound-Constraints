@@ -12,6 +12,8 @@ The Bin packing Lower and Upper Bound Constraints is a variant of the Multi Knap
 - [Folder Structure](#folder-structure)
 - [Usage](#usage)
 - [Hardware Specifications](#hardware-specifications)
+- [Benchmark Details](#benchmark-details)
+- [Acknowledgements](#acknowledgements)
 
 ## Description
 
